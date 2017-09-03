@@ -2,7 +2,7 @@
 
 Simple deplymennt virtual machine with Windows Server 2016 with managed disk. In VM section has been added modeule to auto shudown machine on 18:00 in time zone: W. Europe Standard Time.
 
-# Create a new simple-vm-shutdown-on-time instance
+## Create a new simple-vm-shutdown-on-time instance
 
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/RogalaPiotr/JustCloudPublic/master/simple-vm-shutdown-on-time/azuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
