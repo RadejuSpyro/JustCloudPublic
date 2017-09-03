@@ -155,7 +155,7 @@
       "properties": {
         "status":"Enabled",
         "timeZoneId":"W. Europe Standard Time",
-        "taskType":"ComputeVmShutdownTask",
+        "taskType":"LabVmsShutdownTask",
         "notificationSettings":{
           "status":"Disabled",
           "timeInMinutes":15,
