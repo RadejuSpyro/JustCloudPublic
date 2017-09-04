@@ -4,14 +4,13 @@
   "parameters": {
     "adminUsername": {
       "type": "string",
-      "defaultValue": "justcloud",
       "metadata": {
         "description": "Username for the Virtual Machine."
       }
     },
     "adminPassword": {
-      "type": "string",
-      "defaultValue": "YourPassword1",
+      "type": "securestring",
+      "value": "GEN-PASSWORD",
       "metadata": {
         "description": "Password for the Virtual Machine."
       }
@@ -25,7 +24,7 @@
     },
     "vmName": {
       "type": "string",
-      "defaultValue": "vmtest",
+      "value": "vmtest",
       "metadata": {
         "description": "Unique DNS Name for the Public IP used to access the Virtual Machine."
       }
