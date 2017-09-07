@@ -1,6 +1,6 @@
 # gcloud-simple-ubuntu
 
-Simple deplymennt virtual machine with Linux Ubuntu 16.04 system in Gloogle Cloud Platform. During deployment is creating machine in default network with external IP. Impornt thing to run this deployment is replace "your-project-name" to your name project in GCP before run it.
+Simple deployment virtual machine with Linux Ubuntu 16.04 system in Google Cloud Platform. During deployment is creating a machine in default network with external IP. The important thing to run this deployment is to replace "your-project-name" to your name project in GCP before running.
 
 ## Command to deployment
 ```json
