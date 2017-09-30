@@ -5,9 +5,9 @@ PowerShell script to recreate VM's from vhd files in other container. It's very 
 ## Variables
 
 $vms = @("SimpleWindowsVM")
-// select name's your VM to recreate
+select name's your VM to recreate
 $sourcecontainerimage = "images"
-// container name where you have copied vhd's 
+container name where you have copied vhd's 
 
 ## Author
 Piotr Rogala
