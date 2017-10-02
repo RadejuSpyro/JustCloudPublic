@@ -2,13 +2,12 @@ $vms = @("SimpleWindowsVM")
 $sourcecontainerimage = "images"
 function recreatevms {
     foreach ($vm in $vms) {
-        $vm = "SimpleWindowsVM"
         Write-Host "VM name: "$vm
         $vmrg = Get-AzureRmResource | Where-Object {$_.Name -like $vm}
         Write-Host "VM Resource Group: "$vmrg.ResourceGroupName
         $vmsize = (Get-AzureRmVM -ResourceGroupName $vmrg.ResourceGroupName -VMName $vm).HardwareProfile.VmSize
         Write-Host "VM size: "$vmsize
-        $nicvm = Get-AzureRmNetworkInterface -ResourceGroupName test2 | Where-Object {$_.VirtualMachine.Id -like "*$vm*"}
+        $nicvm = Get-AzureRmNetworkInterface -ResourceGroupName $vmrg.ResourceGroupName | Where-Object {$_.VirtualMachine.Id -like "*$vm*"}
         Write-Host "VM NIC name: "$nicvm.Name
         $vmstatus = Get-AzureRmVM -ResourceGroupName $vmrg.ResourceGroupName -Name $vm -Status
         Write-Host "VM status is: "$vmstatus.Statuses.DisplayStatus[1]
