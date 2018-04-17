@@ -2,7 +2,7 @@
 
 Universal template with index to deploying stamp servers in AV set. You can using this template for deplyoment windows and linux before select correct variable in OS.
 
-## Create a new simple-vm-shutdown-on-time instance
+## Create a new simple-vm-index instance's
 Option - 1
 
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FRogalaPiotr%2FJustCloudPublic%2Fmaster%2Fsimple-vm-index%2Fazuredeploy-1.json" target="_blank">
