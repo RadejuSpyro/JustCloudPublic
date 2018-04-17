@@ -5,7 +5,7 @@ Universal template with index to deploying stamp servers in AV set. You can usin
 ## Create a new simple-vm-index instance's
 Option - 1
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FRogalaPiotr%2FJustCloudPublic%2Fmaster%2Fsimple-vm-index%2Fazuredeploy-1.json" target="_blank">
+<a href="https://raw.githubusercontent.com/RogalaPiotr/JustCloudPublic/master/simple-vm-index/azuredeploy-1.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 <a href="http://armviz.io/#/?load=https://raw.githubusercontent.com/RogalaPiotr/JustCloudPublic/master/simple-vm-index/azuredeploy.json" target="_blank">
@@ -14,7 +14,7 @@ Option - 1
 
 Option - 2
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FRogalaPiotr%2FJustCloudPublic%2Fmaster%2Fsimple-vm-index%2Fazuredeploy-2.json" target="_blank">
+<a href="https://raw.githubusercontent.com/RogalaPiotr/JustCloudPublic/master/simple-vm-index/azuredeploy-2.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 <a href="http://armviz.io/#/?load=https://raw.githubusercontent.com/RogalaPiotr/JustCloudPublic/master/simple-vm-index/azuredeploy.json" target="_blank">
@@ -37,6 +37,6 @@ Option - 2
 New-AzureRMResourceGroupDeployment -ResourceGroupName XXX -TemplateURI "https://raw.githubusercontent.com/RogalaPiotr/JustCloudPublic/master/simple-vm-index/azuredeploy-2.json" -adminUsername XXX -adminPassword XXX -vmName XXX
 ```
 
-## Author
+## Modyfied by
 Piotr Rogala
 https://justcloud.pl
