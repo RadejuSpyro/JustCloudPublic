@@ -2,6 +2,23 @@
 
 Universal template with index to deploying stamp servers in AV set. You can using this template for deplyoment windows and linux before select correct variable in OS.
 
+Option - 1
+Resources:
+1. VM
+2. Manage disk
+3. VNET
+4. Availability Set
+5. Network
+
+Option - 2
+Resources:
+1. VM
+2. Manage disk
+3. VNET
+4. Availability Set
+5. Network
+6. Public IP
+
 ## Create a new simple-vm-index instance's
 Option - 1
 
