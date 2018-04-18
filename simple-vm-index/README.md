@@ -1,6 +1,6 @@
 # simple-vm-index
 
-Universal template with index to deploying stamp servers in AV set. You can using this template for deplyoment windows and linux before select correct variable in OS.
+Universal template with an index to deploying stamp servers in AV set. You can use this template for deployment windows and Linux before the select correct variable in OS.
 
 Option - 1
 Resources:
