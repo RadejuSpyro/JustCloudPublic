@@ -1,6 +1,7 @@
 # simple-vm-index
 
 Universal template with an index to deploying stamp servers in AV set. You can use this template for deployment windows and Linux before the select correct variable in OS.
+I prepared this json's for needs Global Azure Bootcamp - inside you can find a small bug ;)
 
 Option - 1
 Resources:
@@ -47,11 +48,11 @@ Option - 2
 ## Command to deployment
 Option - 1
 ```json
-New-AzureRMResourceGroupDeployment -ResourceGroupName XXX -TemplateURI "https://raw.githubusercontent.com/RogalaPiotr/JustCloudPublic/master/simple-vm-index/azuredeploy-1.json" -adminUsername XXX -adminPassword XXX -vmName XXX
+New-AzureRMResourceGroupDeployment -ResourceGroupName XXX -TemplateURI "https://raw.githubusercontent.com/RogalaPiotr/JustCloudPublic/master/simple-vm-index/azuredeploy-1.json" -adminUsername XXX -adminPassword XXX
 ```
 Option - 2
 ```json
-New-AzureRMResourceGroupDeployment -ResourceGroupName XXX -TemplateURI "https://raw.githubusercontent.com/RogalaPiotr/JustCloudPublic/master/simple-vm-index/azuredeploy-2.json" -adminUsername XXX -adminPassword XXX -vmName XXX
+New-AzureRMResourceGroupDeployment -ResourceGroupName XXX -TemplateURI "https://raw.githubusercontent.com/RogalaPiotr/JustCloudPublic/master/simple-vm-index/azuredeploy-2.json" -adminUsername XXX -adminPassword XXX
 ```
 
 ## Modyfied by
